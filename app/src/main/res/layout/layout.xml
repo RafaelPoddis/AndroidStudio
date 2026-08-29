@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="100dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nota1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Digite a 1ª nota:"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorLink="#776DD09B"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/nota2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Digite a 2ª nota:"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorLink="#776DD09B"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/nota3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Digite a 3ª nota:"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorLink="#776DD09B"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Calcular Média" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aguardando Resultado..." />
+
+
+</LinearLayout>
