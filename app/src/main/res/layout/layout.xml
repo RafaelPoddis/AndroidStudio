@@ -7,18 +7,19 @@
 
     <EditText
         android:id="@+id/nota1"
-        android:layout_width="match_parent"
+        android:layout_width="210dp"
         android:layout_height="80dp"
         android:layout_marginBottom="5dp"
         android:hint="@string/notaUm"
         android:inputType="text"
         android:textAlignment="center"
         android:textColorLink="#776DD09B"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:autofillHints="name"/>
 
     <EditText
         android:id="@+id/nota2"
-        android:layout_width="match_parent"
+        android:layout_width="210dp"
         android:layout_height="80dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
@@ -26,11 +27,12 @@
         android:inputType="text"
         android:textAlignment="center"
         android:textColorLink="#776DD09B"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:autofillHints="name"/>
 
     <EditText
         android:id="@+id/nota3"
-        android:layout_width="match_parent"
+        android:layout_width="210dp"
         android:layout_height="80dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
@@ -38,7 +40,8 @@
         android:inputType="text"
         android:textAlignment="center"
         android:textColorLink="#776DD09B"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:autofillHints="name"/>
 
     <Button
         android:id="@+id/calcular"
