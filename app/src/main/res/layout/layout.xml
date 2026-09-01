@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginBottom="5dp"
-        android:hint="Digite a 1ª nota:"
+        android:hint="@string/notaUm"
         android:inputType="text"
         android:textAlignment="center"
         android:textColorLink="#776DD09B"
@@ -22,7 +22,7 @@
         android:layout_height="80dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:hint="Digite a 2ª nota:"
+        android:hint="@string/notaDois"
         android:inputType="text"
         android:textAlignment="center"
         android:textColorLink="#776DD09B"
@@ -34,7 +34,7 @@
         android:layout_height="80dp"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
-        android:hint="Digite a 3ª nota:"
+        android:hint="@string/notaTres"
         android:inputType="text"
         android:textAlignment="center"
         android:textColorLink="#776DD09B"
@@ -45,13 +45,13 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Calcular Média" />
+        android:text="@string/calculate" />
 
     <TextView
         android:id="@+id/resultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aguardando Resultado..." />
+        android:text="@string/result" />
 
 
 </LinearLayout>

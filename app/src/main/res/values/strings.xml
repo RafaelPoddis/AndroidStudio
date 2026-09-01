@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Aula01</string>
+    <string name="notaUm">Digite a 1ª nota:</string>
+    <string name="notaDois">Digite a 2ª nota:</string>
+    <string name="notaTres">Digite a 3ª nota:</string>
+    <string name="result">Aguardando Resultado...</string>
+    <string name="calculate">Calcular Média</string>
 </resources>
