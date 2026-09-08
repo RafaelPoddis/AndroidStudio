@@ -5,4 +5,7 @@
     <string name="notaTres">Digite a 3ª nota:</string>
     <string name="result">Aguardando Resultado...</string>
     <string name="calculate">Calcular Média</string>
+    <string name="welcomeText">Bem-vindo</string>
+    <string name="startBtn">Começar</string>
+    <string name="invalidValue">Valor Inválido</string>
 </resources>
