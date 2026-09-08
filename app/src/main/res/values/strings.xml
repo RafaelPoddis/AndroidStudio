@@ -8,4 +8,5 @@
     <string name="welcomeText">Bem-vindo</string>
     <string name="startBtn">Começar</string>
     <string name="invalidValue">Valor Inválido</string>
+    <string name="menuBtnDescription">Menu</string>
 </resources>
