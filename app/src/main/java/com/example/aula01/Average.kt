@@ -25,7 +25,7 @@ class Average : ComponentActivity() {
         val resultado = findViewById<TextView>(R.id.resultado)
 
         menuBtn.setOnClickListener {
-            startActivity(Intent(this, ))
+            startActivity(Intent(this, Menu::class.java))
         }
         calculateBtn.setOnClickListener {
             val nota1 = nota1.text.toString().toDoubleOrNull()
