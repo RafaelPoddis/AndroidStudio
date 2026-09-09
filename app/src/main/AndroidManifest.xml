@@ -24,6 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Average" />
+        <activity android:name=".Menu" />
+        <activity android:name=".IMC" />
     </application>
 
 </manifest>
