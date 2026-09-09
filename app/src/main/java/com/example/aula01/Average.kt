@@ -33,7 +33,7 @@ class Average : ComponentActivity() {
             val nota3 = nota3.text.toString().toDoubleOrNull()
             val nota4 = nota4.text.toString().toDoubleOrNull()
             if (nota1 == null || nota2 == null || nota3 == null || nota4 == null){
-                resultado.text = "Nota inválida!"
+                resultado.text = getString(R.string.invalidValue)
                 return@setOnClickListener
             }
             val media = (nota1+nota2+nota3+nota4)/4

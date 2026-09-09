@@ -41,14 +41,14 @@
 
         <Button
             android:id="@+id/mediaBtn"
-            android:layout_width="200dp"
+            android:layout_width="210dp"
             android:layout_height="50dp"
             android:text="@string/calculateAverage"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/imcBtn"
-            android:layout_width="200dp"
+            android:layout_width="210dp"
             android:layout_height="50dp"
             android:text="@string/calculateImc"
             android:textSize="20sp" />
