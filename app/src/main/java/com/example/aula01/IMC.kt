@@ -3,6 +3,7 @@ package com.example.aula01
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
@@ -13,6 +14,12 @@ class IMC : ComponentActivity() {
         enableEdgeToEdge()
 
         setContentView(R.layout.activity_imc)
+
+        val menuBtn = findViewById<ImageButton>(R.id.menuBtn)
+
+        menuBtn.setOnClickListener {
+            startActivity(Intent(this, Menu::class.java))
+        }
 
         val altura = findViewById<EditText>(R.id.alturaValue).text.toString().toDoubleOrNull()
         val peso = findViewById<EditText>(R.id.pesoValue).text.toString().toDoubleOrNull()
