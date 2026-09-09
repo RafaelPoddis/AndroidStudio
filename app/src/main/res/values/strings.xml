@@ -11,4 +11,8 @@
     <string name="invalidValue">Valor Inválido</string>
     <string name="menuText">Menu</string>
     <string name="calculateImc">Calcular IMC</string>
+    <string name="alturaHint">Ex: 155</string>
+    <string name="pesoHint">Ex: 75</string>
+    <string name="alturaText">Altura (cm): </string>
+    <string name="pesoText">Peso (kg): </string>
 </resources>

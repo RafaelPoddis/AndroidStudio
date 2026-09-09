@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp">
+
+    <ImageButton
+        android:id="@+id/menuBtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_menu"
+        android:contentDescription="@string/menuText"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="75dp">
+
+        <LinearLayout
+            android:id="@+id/alturaFrame"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/alturaText"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:text="@string/alturaText"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/alturaValue"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:autofillHints="name"
+                android:hint="@string/alturaHint"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColorLink="#776DD09B" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pesoFrame"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pesoText"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:text="@string/pesoText"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/pesoValue"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:autofillHints="name"
+                android:hint="@string/pesoHint"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColorLink="#776DD09B" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/calculateImc"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="@string/calculateImc" />
+
+        <TextView
+            android:id="@+id/resultadoImc"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="@string/result" />
+    </LinearLayout>
+
+</LinearLayout>
