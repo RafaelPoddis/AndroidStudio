@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         val startBtn = findViewById<Button>(R.id.startBtn)
 
         startBtn.setOnClickListener {
-            startActivity(Intent(this, Average::class.java))
+            startActivity(Intent(this, Menu::class.java))
         }
 
     }
