@@ -3,10 +3,11 @@
     <string name="notaUm">Digite a 1ª nota:</string>
     <string name="notaDois">Digite a 2ª nota:</string>
     <string name="notaTres">Digite a 3ª nota:</string>
+    <string name="notaQuatro">Digite a 4ª nota:</string>
     <string name="result">Aguardando Resultado...</string>
     <string name="calculate">Calcular Média</string>
     <string name="welcomeText">Bem-vindo</string>
     <string name="startBtn">Começar</string>
     <string name="invalidValue">Valor Inválido</string>
-    <string name="menuBtnDescription">Menu</string>
+    <string name="menuText">Menu</string>
 </resources>

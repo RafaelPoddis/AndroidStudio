@@ -2,13 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
     android:orientation="vertical">
 
     <ImageButton
         android:id="@+id/menuBtn"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:contentDescription="@string/menuBtnDescription"
+        android:contentDescription="@string/menuText"
         android:src="@drawable/ic_menu" />
 
     <LinearLayout
@@ -50,6 +51,19 @@
             android:layout_marginBottom="5dp"
             android:autofillHints="name"
             android:hint="@string/notaTres"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColorLink="#776DD09B"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/nota4"
+            android:layout_width="210dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:autofillHints="name"
+            android:hint="@string/notaQuatro"
             android:inputType="text"
             android:textAlignment="center"
             android:textColorLink="#776DD09B"
